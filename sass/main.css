@@ -500,6 +500,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   border-bottom: var(--line);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .overview__heading {
@@ -538,6 +540,15 @@ body {
   vertical-align: center;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .overview__location {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 .overview__icon-location {
   margin-right: 0.5rem;
 }
@@ -567,6 +578,13 @@ body {
 @media only screen and (max-width: 37.5em) {
   .overview__rating {
     padding: 0 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .overview__rating {
+    padding: 0 1rem;
+    margin-left: 0;
   }
 }
 
