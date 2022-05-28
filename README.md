@@ -9,6 +9,7 @@ This is a sample Hotel booking app originally conceived by Jonas Schmedtmann and
 - and other advanced CSS3 technics
 
 German / Deutsch:
+
 Dies ist ein Hotelbuchungs-App-muster, die ursprünglich von Jonas Schmedtmann konzipiert und von mir erstellt wurde.
 Ich habe dafuer:
 - Sass
